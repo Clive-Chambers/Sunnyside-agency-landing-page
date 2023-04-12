@@ -477,13 +477,18 @@ footer ul.social-links a:hover {
     align-self: center;
     text-align: left;
     width: 100%;
-    padding: 0 8rem;
+    padding: auto;
   }
 
   .transform-content h2,
   .stand-out-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .transform-content p,
+  .stand-out-content p {
+    margin-bottom: 0rem;
   }
 
   /* Graphic Design & Photography */
@@ -497,8 +502,10 @@ footer ul.social-links a:hover {
     align-items: normal;
   }
 
-  .info {
+  .graphic-design .info,
+  .photography .info {
     align-self: center;
+    bottom: 1.5rem;
   }
 
   /* Testimonials Section */
@@ -533,5 +540,31 @@ footer ul.social-links a:hover {
 
   .gallery-image img {
     width: 100%;
+  }
+}
+@media screen and (min-width: 1054px) {
+  .transform-content,
+  .stand-out-content {
+    padding: 0 8rem;
+  }
+
+  .transform-content h2,
+  .stand-out-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    max-width: 464px;
+    margin-bottom: 3rem;
+  }
+
+  .transform-content p,
+  .stand-out-content p {
+    max-width: 464px;
+    margin-bottom: 2rem;
+  }
+
+  .graphic-design .info,
+  .photography .info {
+    align-self: center;
+    bottom: 5rem;
   }
 }
