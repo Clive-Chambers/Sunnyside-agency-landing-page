@@ -567,4 +567,13 @@ footer ul.social-links a:hover {
     align-self: center;
     bottom: 5rem;
   }
+
+  .testimonial h4 {
+    margin-bottom: 6.5rem;
+  }
+
+  .footer-logo {
+    margin: 4rem auto 3rem auto;
+    width: 12%;
+  }
 }
